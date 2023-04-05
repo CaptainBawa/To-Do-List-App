@@ -36,15 +36,20 @@ section {
 
 .task-li {
   flex-direction: column;
+} 
+
+#text {
+  border: none;
+  padding: 2% 1%;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
 }
 
-.task {
-  margin-right: auto;
-  padding-left: 3%;
-}
 
 .list-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .task-container {
@@ -66,17 +71,6 @@ section {
   height: auto;
 }
 
-.check-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.check-container,
-#add-new {
-  border: none;
-  background-color: #fff;
-}
-
 .done {
   font-size: 1em;
   color: #fff;
@@ -88,6 +82,8 @@ section {
   width: 100%;
   height: auto;
   padding: 1%;
+  border: none;
+  background-color: #fff;
 }
 
 .title-container,
