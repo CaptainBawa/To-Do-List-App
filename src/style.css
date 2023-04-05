@@ -1,7 +1,117 @@
-body {
-  background-color: bisque;
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-p {
-  text-transform: uppercase;
+body {
+  background-color: #f6f6f6;
+  font-family: Inter, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% auto;
+  height: auto;
+  width: 40%;
+  box-shadow: 1px 24px 10px;
+  background-color: #fff;
+}
+
+.title-todo {
+  padding: 0 3%;
+  width: 100%;
+  height: auto;
+}
+
+.task-li {
+  flex-direction: column;
+}
+
+.task {
+  margin-right: auto;
+  padding-left: 3%;
+}
+
+.list-container {
+  display: flex;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container,
+.add-container form,
+.task-container li {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-container {
+  width: 100%;
+  height: auto;
+}
+
+.check-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-container,
+#add-new {
+  border: none;
+  background-color: #fff;
+}
+
+.done {
+  font-size: 1em;
+  color: #fff;
+  border: 3px solid #f6f6f6;
+  margin-bottom: 5%;
+}
+
+#add-new {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+.title-container,
+.add-container,
+.task-container,
+.list-container,
+.todo-container {
+  border-bottom: 3px solid #f6f6f6;
+  padding: 3% 0;
+}
+
+.complete {
+  width: 100%;
+  height: auto;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 5%;
+  border: none;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin: -4% auto;
+}
+
+span,
+.complete {
+  cursor: pointer;
 }

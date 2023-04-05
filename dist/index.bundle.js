@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: bisque;\\n}\\n\\np {\\n  text-transform: uppercase;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Crete+Round&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*,\\n*::after,\\n*::before {\\n    box-sizing: border-box;\\n    padding: 0;\\n    margin: 0;\\n}\\n\\nbody {\\n    background-color: #f6f6f6;\\n    font-family: Inter, sans-serif;\\n}\\n\\nli {\\n    list-style: none;\\n}\\n\\nsection {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    margin: 10% auto;\\n    height: auto;\\n    width: 40%;\\n    box-shadow: 1px 24px 10px;\\n    background-color: #fff;\\n}\\n\\n.title-todo {\\n    padding: 0 3%;\\n    width: 100%;\\n    height: auto;\\n}\\n\\n.task-li {\\n    flex-direction: column;\\n}\\n\\n.task {\\n    margin-right: auto;\\n    padding-left: 3%;\\n}\\n\\n.list-container {\\n    display: flex;\\n}\\n\\n.task-container {\\n    display: flex;\\n    flex-direction: column;\\n}\\n\\n.title-container,\\n.add-container form,\\n.task-container li {\\n    width: 100%;\\n    height: auto;\\n    display: flex;\\n    justify-content: space-between;\\n}\\n\\n.todo-container {\\n    width: 100%;\\n    height: auto;\\n}\\n\\n.check-container {\\n    display: flex;\\n    justify-content: space-between;\\n}\\n\\n.check-container,\\n#add-new {\\n    border: none;\\n    background-color: #fff;\\n}\\n\\n.done {\\n    font-size: 1em;\\n    color: #fff;\\n    border: 3px solid #f6f6f6;\\n    margin-bottom: 5%;\\n}\\n\\n#add-new {\\n    width: 100%;\\n    height: auto;\\n    padding: 1%;\\n}\\n\\n.title-container,\\n.add-container,\\n.task-container,\\n.list-container,\\n.todo-container {\\n    border-bottom: 3px solid #f6f6f6;\\n    padding: 3% 0;\\n}\\n\\n.complete {\\n    width: 100%;\\n    height: auto;\\n    background-color: #f6f6f6;\\n    text-align: center;\\n    padding: 5%;\\n    border: none;\\n    font-size: 1.5em;\\n    font-weight: 100;\\n    margin: -4% auto;\\n}\\n\\nspan,\\n.complete {\\n    cursor: pointer;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,33 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/modules/toDoFunc.js":
+/*!*********************************!*\
+  !*** ./src/modules/toDoFunc.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _toDoObj_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./toDoObj.js */ \"./src/modules/toDoObj.js\");\n\n\nconst list = document.querySelector('.task-container');\n\nconst toDoFunc = () => {\n  const li = document.createElement('li');\n  li.classList.add('task-li');\n  _toDoObj_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].forEach((task) => {\n    li.innerHTML += `\n        <div class=\"list-container\">\n          <span class=\"done\">&#63553;</span>\n          <label class=\"task\">${task.description}</label>\n          <span>&#8942;</span>\n        </div>\n        `;\n  });\n  list.appendChild(li);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toDoFunc);\n\n//# sourceURL=webpack://webpack/./src/modules/toDoFunc.js?");
+
+/***/ }),
+
+/***/ "./src/modules/toDoObj.js":
+/*!********************************!*\
+  !*** ./src/modules/toDoObj.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst toDoTask = [\n  {\n    index: 1,\n    description: 'Learn Web Pentesting',\n    completed: true,\n  },\n  {\n    index: 2,\n    description: 'Learn Python',\n    completed: false,\n  },\n];\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toDoTask);\n\n//# sourceURL=webpack://webpack/./src/modules/toDoObj.js?");
+
+/***/ }),
+
 /***/ "./src/script.js":
 /*!***********************!*\
   !*** ./src/script.js ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://webpack/./src/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_toDoFunc_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/toDoFunc.js */ \"./src/modules/toDoFunc.js\");\n\n\n\nwindow.addEventListener('load', _modules_toDoFunc_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n//# sourceURL=webpack://webpack/./src/script.js?");
 
 /***/ })
 
