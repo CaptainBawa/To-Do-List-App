@@ -8,8 +8,8 @@ const toDoFunc = () => {
   toDoTask.forEach((task) => {
     li.innerHTML += `
         <div class="list-container">
-          <span class="done">&#63553;</span>
-          <label class="task">${task.description}</label>
+          <input class="checkbox" type="checkbox">
+          <textarea name="text" id="text">${task.description}</textarea>
           <span>&#8942;</span>
         </div>
         `;
