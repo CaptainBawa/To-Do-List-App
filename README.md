@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="mussie.png" alt="logo" width="300px"  height="300px" />
+  <img src="LinkedIn Cover Main.jpg" alt="logo" width="100%"  height="auto" />
   <br/>
   <h3><b>Webpack App Starter</b></h3>
 </div>
@@ -11,7 +11,7 @@ This is a simple starter project for building web applications using Webpack. It
 To get started with this project, clone the repository to your local machine and install the required dependencies:
 
 ```sh
- git clone git@github.com:MussieTeka/webpack.git
+ git clone git@github.com:CaptainBawa/To-Do-List-App.git
  cd webapp-starter
  npm install
 
@@ -60,4 +60,4 @@ The source directory contains:
 
 ## License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/CaptainBawa/To-Do-List-App/blob/to-do-app/LICENSE) licensed.
