@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="LinkedIn Cover Main.jpg" alt="logo" width="140"  height="auto" />
+  <img src="LinkedIn Cover Main.jpg" alt="logo" width="100%"  height="auto" />
   <br/>
 
   <h3><b>To Do List App</b></h3>
