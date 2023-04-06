@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To Do List App Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d9a272ac0d.js" crossorigin="anonymous"></script>
+    <title>To Do List Homepage</title>
 <script defer src="index.bundle.js"></script></head>
 <body>
-  <header></header>
+  <header><h1>My To Do List App</h1></header>
   <main>
-    <section>
-      <div class="title-todo">
-        <div class="title-container">
-          <h2 class="title">To Do List App</h2>
-          <span class="refresh-icon">&#x1f5d8;</span>
-        </div>
-        <div class="todo-container">
-          <ul class="add-container">
-            <li>
-              <form action="">
-                <input id="add-new" type="text" placeholder="Add to your list...">
-                <span class="return-icon">&#10550;</span>
-              </form>
-            </li>
-          </ul>
-          <ul class="task-container">
-          </ul>
-        </div>
+    <section class="todo-container">
+      <div class="sub-container">
+          <div class="content-container">
+           <h2 class="today">Today's To Do</h2>
+           <i class="fa-solid fa-arrows-rotate icon"></i>
+          </div>
+          <form action="" id="form">
+              <div class="content-container">
+                  <input type="text" class="userInput" placeholder="Add to your list...">
+                  <span><i class="fa-solid fa-arrow-turn-down fa-rotate-90 icon"></i></span>
+              </div>
+          </form> 
+          <div class="task-container"></div>
+          <button class="clear-btn content-container">Clear all completed</button>     
       </div>
-      <button class="complete">Clear all completed</button>
-    </section>
+  </section>
   </main>
+
+</body>
+</html>
