@@ -1,15 +1,16 @@
 export const tasks = JSON.parse(localStorage.getItem('array')) || [];
 
-export const add = () => {
+export const addTask = () => {
   const userInput = document.querySelector('.userInput');
-  const value = userInput.value.trim();
-  if ((value.length !== 0)) {
-    const obj = {
+  const val = userInput.value.trim();
+  if ((val.length !== 0)) {
+    const taskObj = {
       description: `${userInput.value}`,
       completed: false,
       index: tasks.length + 1,
     };
-    tasks.push(obj);
+    tasks.push(taskObj);
     localStorage.setItem('array', JSON.stringify(tasks));
+    userInput.value = '';
   }
 };
