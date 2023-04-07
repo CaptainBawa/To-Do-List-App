@@ -1,117 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  padding: 0;
+/* Set margin and padding to 0 for all elements */
+* {
   margin: 0;
+  padding: 0;
 }
 
+/* Set the background color of the body element */
 body {
-  background-color: #f6f6f6;
-  font-family: Inter, sans-serif;
+  background-color: rgba(218, 218, 218, 0.242);
 }
 
-li {
-  list-style: none;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10% auto;
-  height: auto;
-  width: 40%;
-  box-shadow: 1px 24px 10px;
-  background-color: #fff;
-}
-
-.title-todo {
-  padding: 0 3%;
-  width: 100%;
-  height: auto;
-}
-
-.task-li {
-  flex-direction: column;
-}
-
-.task {
-  margin-right: auto;
-  padding-left: 3%;
-}
-
-.list-container {
-  display: flex;
-}
-
-.task-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.title-container,
-.add-container form,
-.task-container li {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.todo-container {
-  width: 100%;
-  height: auto;
-}
-
-.check-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.check-container,
-#add-new {
-  border: none;
-  background-color: #fff;
-}
-
-.done {
-  font-size: 1em;
-  color: #fff;
-  border: 3px solid #f6f6f6;
-  margin-bottom: 5%;
-}
-
-#add-new {
-  width: 100%;
-  height: auto;
-  padding: 1%;
-}
-
-.title-container,
-.add-container,
-.task-container,
-.list-container,
-.todo-container {
-  border-bottom: 3px solid #f6f6f6;
-  padding: 3% 0;
-}
-
-.complete {
-  width: 100%;
-  height: auto;
-  background-color: #f6f6f6;
+/* Center align text and add margin to header */
+header {
   text-align: center;
-  padding: 5%;
+  margin: 2%;
+}
+
+/* Set the properties of the container for to-do list items */
+.todo-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Set the properties of the sub-container for to-do list items */
+.sub-container {
+  max-width: 768px;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid rgba(139, 134, 134, 0.242);
+  box-shadow: 0 2px 5px rgba(255, 0, 0, 0.8);
+}
+
+/* Set the color of the icon */
+.icon {
+  color: #acadaf;
+}
+
+/* Set the size of the dots icon */
+.dots-icon {
+  height: 40px;
+  width: 40px;
+}
+
+/* Hide the delete icon by default */
+.hidden-icon {
+  display: none;
+  height: 40px;
+  width: 40px;
+}
+
+/* Set the properties of the content container for to-do list items */
+.content-container {
+  height: 4rem;
+  border-bottom: 1px solid rgba(139, 134, 134, 0.242);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+}
+
+/* Set the properties of the user input field for adding a new to-do list item */
+.userInput {
+  height: auto;
+  width: 98%;
   border: none;
-  font-size: 1.5em;
-  font-weight: 100;
-  margin: -4% auto;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: rgba(139, 134, 134, 0.8);
+}
+
+/* Remove the outline when the user input field is focused */
+.userInput:focus {
+  outline: none;
+}
+
+/* Set the properties of the add icon */
+.add-icon {
+  width: 2%;
+}
+
+/* Set the properties of the content sub-container for to-do list items */
+.content-sub-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* Set the properties of the delete button */
+.delete {
+  border: none;
+  background-color: transparent;
+  margin-right: -2%;
+}
+
+/* Set the properties of the user task field for to-do list items */
+.userTask {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  height: auto;
+  width: 90%;
+  border: none;
+}
+
+/* Remove the outline when the user task field is focused */
+.userTask:focus {
+  outline: none;
+}
+
+/* Set the properties of the clear button for removing completed to-do list items */
+.clear-btn {
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 1.5rem;
+  justify-content: center;
 }
 
 span,
-.complete {
+i,
+.clear-btn,
+.check {
   cursor: pointer;
 }
