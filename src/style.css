@@ -1,21 +1,17 @@
-/* Set margin and padding to 0 for all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Set background color for the body */
 body {
-  background-color: #e9e9e9;
+  background-color: rgba(218, 218, 218, 0.242);
 }
 
-/* Center align the h1 element and add padding to the top */
 header {
   text-align: center;
-  margin: 5%;
+  margin: 2%;
 }
 
-/* Create a container for the todo list */
 .todo-container {
   height: auto;
   width: 100%;
@@ -24,66 +20,56 @@ header {
   align-items: center;
 }
 
-/* Create a wrapper for the list items */
 .sub-container {
   max-width: 768px;
   width: 80%;
-  background-color: #ffffff;
-  border: 1px solid #8b8686;
-  box-shadow: 0 2px 5px #ff0404;
+  background-color: #fff;
+  border: 1px solid rgba(139, 134, 134, 0.242);
+  box-shadow: 0 2px 5px rgba(255, 0, 0, 0.8);
 }
 
-/* Set color for the icon */
 .icon {
-  color: #acadae;
+  color: #acadaf;
 }
 
-/* Set height and width for the dots icon */
-.dots {
+.dots-icon {
   height: 40px;
   width: 40px;
-  padding-left: 4%;
 }
 
-/* Hide the element and set its height and width */
-.hidden {
+.hidden-icon {
   display: none;
   height: 40px;
   width: 40px;
 }
 
-/* Set height, border and alignment for the div element */
 .content-container {
   height: 4rem;
-  border-bottom: 1px solid #8b8686;
+  border-bottom: 1px solid rgba(139, 134, 134, 0.242);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: 1rem;
 }
 
-/* Set height, width, border, font size, style and color for the add input */
 .userInput {
   height: auto;
   width: 98%;
   border: none;
   font-size: 1.5rem;
   font-style: italic;
-  color: #8b8686;
+  color: rgba(139, 134, 134, 0.8);
 }
 
-/* Remove the outline when the add input is focused */
 .userInput:focus {
   outline: none;
 }
 
-/* Set the width for the span icon */
-span {
+.add-icon {
   width: 2%;
 }
 
-/* Set display, alignment, gap and dimensions for the listdiv element */
-.task-sub-container {
+.content-sub-container {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -91,28 +77,25 @@ span {
   height: 100%;
 }
 
-/* Set border, background color and alignment for the delete button */
 .delete {
   border: none;
   background-color: transparent;
+  margin-right: -2%;
 }
 
-/* Set alignment, font size, height, width and border for the list label */
 .userTask {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  height: 100%;
+  height: auto;
   width: 90%;
   border: none;
 }
 
-/* Remove the outline when the list label is focused */
 .userTask:focus {
   outline: none;
 }
 
-/* Set display, alignment, font size, height, width, border and resize for the textarea */
 .textarea {
   display: none;
   align-items: center;
@@ -123,20 +106,17 @@ span {
   resize: none;
 }
 
-/* Set width, border, text alignment, font size, justification and color for the button */
 .clear-btn {
   width: 100%;
   border: none;
   text-align: center;
   font-size: 1.5rem;
   justify-content: center;
-  color: #8b8686;
+  color: rgba(139, 134, 134, 0.8);
 }
 
+span,
 i,
-.clear-btn,
-.check  {
+.check {
   cursor: pointer;
 }
-
-
