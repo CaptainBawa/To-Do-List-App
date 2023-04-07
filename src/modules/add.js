@@ -1,5 +1,8 @@
 export const tasks = JSON.parse(localStorage.getItem('array')) || [];
 
+/*
+ The function adds a new task to an array and stores it in local storage if the user input is not
+ empty. */
 export const addTask = () => {
   const userInput = document.querySelector('.userInput');
   const val = userInput.value.trim();

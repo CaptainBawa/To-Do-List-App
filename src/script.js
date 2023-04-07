@@ -1,13 +1,15 @@
+// These lines of code are importing modules and stylesheets into the JavaScript file.
 import './style.css';
-
 import { tasks, addTask } from './modules/add.js';
 import remove from './modules/delete.js';
-
 import taskStatus from './modules/status.js';
 import edit from './modules/edit.js';
 import modify from './modules/modify.js';
 import clearCompleted from './clear.js';
 
+/*
+ This function displays a list of tasks with checkboxes, input fields, and buttons for editing and
+ deleting. */
 const display = () => {
   const taskContainer = document.querySelector('.task-container');
   let elements = '';

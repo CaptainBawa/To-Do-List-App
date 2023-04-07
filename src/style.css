@@ -1,17 +1,21 @@
+/* Set margin and padding to 0 for all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Set the background color of the body element */
 body {
   background-color: rgba(218, 218, 218, 0.242);
 }
 
+/* Center align text and add margin to header */
 header {
   text-align: center;
   margin: 2%;
 }
 
+/* Set the properties of the container for to-do list items */
 .todo-container {
   height: auto;
   width: 100%;
@@ -20,6 +24,7 @@ header {
   align-items: center;
 }
 
+/* Set the properties of the sub-container for to-do list items */
 .sub-container {
   max-width: 768px;
   width: 80%;
@@ -28,21 +33,25 @@ header {
   box-shadow: 0 2px 5px rgba(255, 0, 0, 0.8);
 }
 
+/* Set the color of the icon */
 .icon {
   color: #acadaf;
 }
 
+/* Set the size of the dots icon */
 .dots-icon {
   height: 40px;
   width: 40px;
 }
 
+/* Hide the delete icon by default */
 .hidden-icon {
   display: none;
   height: 40px;
   width: 40px;
 }
 
+/* Set the properties of the content container for to-do list items */
 .content-container {
   height: 4rem;
   border-bottom: 1px solid rgba(139, 134, 134, 0.242);
@@ -52,6 +61,7 @@ header {
   padding-inline: 1rem;
 }
 
+/* Set the properties of the user input field for adding a new to-do list item */
 .userInput {
   height: auto;
   width: 98%;
@@ -61,14 +71,17 @@ header {
   color: rgba(139, 134, 134, 0.8);
 }
 
+/* Remove the outline when the user input field is focused */
 .userInput:focus {
   outline: none;
 }
 
+/* Set the properties of the add icon */
 .add-icon {
   width: 2%;
 }
 
+/* Set the properties of the content sub-container for to-do list items */
 .content-sub-container {
   display: flex;
   align-items: center;
@@ -77,12 +90,14 @@ header {
   height: 100%;
 }
 
+/* Set the properties of the delete button */
 .delete {
   border: none;
   background-color: transparent;
   margin-right: -2%;
 }
 
+/* Set the properties of the user task field for to-do list items */
 .userTask {
   display: flex;
   align-items: center;
@@ -92,11 +107,13 @@ header {
   border: none;
 }
 
+/* Remove the outline when the user task field is focused */
 .userTask:focus {
   outline: none;
 }
 
-.textarea {
+/* Set the properties of the text area for editing to-do list items */
+/* .textarea {
   display: none;
   align-items: center;
   font-size: 1.5rem;
@@ -104,15 +121,16 @@ header {
   width: 90%;
   border: none;
   resize: none;
-}
+} */
 
+/* Set the properties of the clear button for removing completed to-do list items */
 .clear-btn {
   width: 100%;
   border: none;
   text-align: center;
   font-size: 1.5rem;
   justify-content: center;
-  color: rgba(139, 134, 134, 0.8);
+ 
 }
 
 span,

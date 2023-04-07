@@ -1,5 +1,6 @@
 import { tasks } from './add.js';
 
+// This function removes a task from the DOM and from the tasks array if it is completed.
 export default function remove() {
   const hidden = document.querySelectorAll('.hidden-icon');
   const index = Array.from(hidden).indexOf(this);
