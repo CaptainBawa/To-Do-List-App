@@ -40,6 +40,7 @@ function modify() {
       this.style.backgroundColor = '#FFD700';
       dotsIcon[index].style.display = 'none';
       hidden[index].style.display = 'block';
+      hidden[index].addEventListener('click', remove);
     }
   };
 
