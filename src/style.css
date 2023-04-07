@@ -117,6 +117,7 @@ header {
 
 span,
 i,
+.clear-btn,
 .check {
   cursor: pointer;
 }
