@@ -112,17 +112,6 @@ header {
   outline: none;
 }
 
-/* Set the properties of the text area for editing to-do list items */
-/* .textarea {
-  display: none;
-  align-items: center;
-  font-size: 1.5rem;
-  height: 100%;
-  width: 90%;
-  border: none;
-  resize: none;
-} */
-
 /* Set the properties of the clear button for removing completed to-do list items */
 .clear-btn {
   width: 100%;
@@ -130,7 +119,6 @@ header {
   text-align: center;
   font-size: 1.5rem;
   justify-content: center;
- 
 }
 
 span,
