@@ -5,7 +5,7 @@ import remove from './modules/delete.js';
 import taskStatus from './modules/status.js';
 import edit from './modules/edit.js';
 import modify from './modules/modify.js';
-import clearCompleted from './clear.js';
+// import clearCompleted from './clear.js';
 
 /*
  This function displays a list of tasks with checkboxes, input fields, and buttons for editing and
@@ -51,9 +51,9 @@ const display = () => {
       checkbox[i].checked = false;
     }
   }
-  const clearBtn = document.querySelector('.clear-btn');
-  clearBtn.addEventListener('click', clearCompleted);
-  clearBtn.addEventListener('click', display);
+  // const clearBtn = document.querySelector('.clear-btn');
+  // clearBtn.addEventListener('click', clearCompleted);
+  // clearBtn.addEventListener('click', display);
 };
 
 const addIcon = document.querySelector('.add-icon');

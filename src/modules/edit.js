@@ -20,13 +20,13 @@ const edit = (event) => {
   const hidden = document.querySelectorAll('.hidden-icon');
 
   if (event.key === 'Enter' || event.key === 'Escape') {
-    userTask[index].value = this.value;
+    userTask[index].value = event.target.value;
     /* `userTask[index].blur();` is a method that removes focus from the input element with the
     specified index. In this code, it is used to remove focus from the input element after the user
     has finished editing the task description and pressed the Enter or Escape key. */
     userTask[index].blur();
     container[index].style.backgroundColor = '#fff';
-    this.style.backgroundColor = '#fff';
+    event.target.style.backgroundColor = '#fff';
     dotsIcon[index].style.display = 'block';
     hidden[index].style.display = 'none';
     tasks[index].description = userTask[index].value;
