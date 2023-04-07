@@ -114,6 +114,7 @@ To run the project, execute the following command:
 
 - [ ] **[Add_function_to_clear_all_task_after_it_been_marked_as_completed]**
 - [ ] **[Add_status_functionality]**
+- [ ] **[Deploy_using_OpenSSL]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
