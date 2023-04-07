@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
   <img src="LinkedIn Cover Main.jpg" alt="logo" width="100%"  height="auto" />
   <br/>
@@ -51,12 +50,11 @@ Overall, the to-do list app project is a great example of how modern web develop
 
 ### Key Features <a name="key-features"></a>
 
-- **[Nice_Design]**
-- **[Webpack_module_bundler]**
+- **[User_can_add_task]**
+- **[User_can_remove_task]**
+- **[User_can_edit_task]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -114,11 +112,10 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add_and_remove]**
-- [ ] **[Interactive_list]**
+- [ ] **[Add_function_to_clear_all_task_after_it_been_marked_as_completed]**
+- [ ] **[Add_status_functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -127,7 +124,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/CaptainBawa/To-Do-List-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
