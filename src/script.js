@@ -28,7 +28,12 @@ const display = () => {
     userTask[i].addEventListener('keyup', edit);
     userTask[i].addEventListener('click', modify);
     const checkbox = document.querySelectorAll('.check');
-    checkbox[i].addEventListener('click', taskStatus);
+    for (let i = 0; i < checkbox.length; i += 1) {
+      checkbox[i].addEventListener('click', () => {
+        taskStatus(checkbox[i]);
+      });
+    }
+
     if (tasks[i].completed === true) {
       userTask[i].style.textDecoration = 'line-through';
       userTask[i].style.color = 'rgba(139, 134, 134, 0.8)';
