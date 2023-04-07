@@ -136,6 +136,6 @@ I'm excited to be working on this project and I would be grateful for your suppo
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/CaptainBawa/To-Do-List-App/blob/to-do-app/LICENSE) licensed.
+This project is [MIT](https://github.com/CaptainBawa/To-Do-List-App/blob/add-remove/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
