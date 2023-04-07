@@ -1,14 +1,13 @@
 import { tasks } from './add.js';
 
-const taskStatus = () => {
-  const checkbox = document.querySelectorAll('.check');
-  const index = Array.from(checkbox).indexOf(this);
+const taskStatus = (checkbox) => {
+  const index = Array.from(document.querySelectorAll('.check')).indexOf(checkbox);
   const userTask = document.querySelectorAll('.userTask');
   const hidden = document.querySelectorAll('.hidden-icon');
   const dotsIcon = document.querySelectorAll('.dots-icon');
   let value = false;
   setTimeout(() => {
-    if (this.checked === true) {
+    if (checkbox.checked === true) {
       value = true;
       tasks[index].completed = value;
       userTask[index].style.textDecoration = 'line-through';
