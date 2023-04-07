@@ -1,6 +1,6 @@
 /* Importing the `tasks` array from the `add.js` module. This allows the `clearCompleted`
 function to access and modify the `tasks` array. */
-import { tasks } from './modules/add.js';
+import { tasks } from './add.js';
 
 // This function clears completed tasks from an array and updates the index of remaining tasks.
 const clearCompleted = () => {
