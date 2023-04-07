@@ -53,6 +53,7 @@ Overall, the to-do list app project is a great example of how modern web develop
 - **[User_can_add_task]**
 - **[User_can_remove_task]**
 - **[User_can_edit_task]**
+**[User_can_clear_all_task_after_completed]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,8 +119,7 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add_function_to_clear_all_task_after_it_been_marked_as_completed]**
-- [ ] **[Add_status_functionality]**
+- [ ] **[Add_footer]**
 - [ ] **[Deploy_using_OpenSSL]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
