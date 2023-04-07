@@ -1,7 +1,6 @@
 import './style.css';
 
 import { tasks, addTask } from './modules/add.js';
-
 import remove from './modules/delete.js';
 
 import taskStatus from './modules/status.js';
