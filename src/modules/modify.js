@@ -22,7 +22,7 @@ function modify() {
       hidden[index].style.display = 'none';
       const body = document.querySelector('body');
       body.removeEventListener('click', modi);
-      setTimeout(hidden[index].addEventListener('click', remove), 2000);
+      hidden[index].addEventListener('click', remove);
     } else if (event.target === this) {
       const index = Array.from(userTask).indexOf(this);
       const container = document.querySelectorAll('#container');
