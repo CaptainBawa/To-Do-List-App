@@ -13,6 +13,7 @@ body {
 header {
   text-align: center;
   margin: 2%;
+  text-decoration: underline;
 }
 
 /* Set the properties of the container for to-do list items */
